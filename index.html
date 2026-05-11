@@ -444,21 +444,42 @@
     <div class="popup-box popup-box--small">
         <button class="close-btn" onclick="closePopup('filmsPopup')">X</button>
         <h2>Favorite Films</h2>
-        <div class="films-grid">
-            <div class="film-card">
-                <img src="https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
-                <h3>Forrest Gump (1994)</h3>
-                <p>Robert Zemeckis</p>
+
+        <div class="film-slideshow">
+            <!-- Slides -->
+            <div class="film-slides">
+                <div class="film-slide active">
+                    <div class="film-card">
+                        <img src="https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
+                        <h3>Forrest Gump (1994)</h3>
+                        <p>Robert Zemeckis</p>
+                    </div>
+                </div>
+                <div class="film-slide">
+                    <div class="film-card">
+                        <img src="https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_.jpg">
+                        <h3>Interstellar (2014)</h3>
+                        <p>Christopher Nolan</p>
+                    </div>
+                </div>
+                <div class="film-slide">
+                    <div class="film-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/id/a/a8/10_things_i_hate_about_you_poster.jpeg">
+                        <h3>10 Things I Hate About You (1999)</h3>
+                        <p>Gil Junger</p>
+                    </div>
+                </div>
             </div>
-            <div class="film-card">
-                <img src="https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_.jpg">
-                <h3>Interstellar (2014)</h3>
-                <p>Christopher Nolan</p>
-            </div>
-            <div class="film-card">
-                <img src="https://upload.wikimedia.org/wikipedia/id/a/a8/10_things_i_hate_about_you_poster.jpeg">
-                <h3>10 Things I Hate About You (1999)</h3>
-                <p>Gil Junger</p>
+
+            <!-- Nav Buttons -->
+            <div class="slide-nav">
+                <button class="slide-btn" id="filmPrev" onclick="changeSlide(-1)">&#9664;</button>
+                <div class="slide-dots" id="filmDots">
+                    <span class="dot active" onclick="goToSlide(0)"></span>
+                    <span class="dot" onclick="goToSlide(1)"></span>
+                    <span class="dot" onclick="goToSlide(2)"></span>
+                </div>
+                <button class="slide-btn" id="filmNext" onclick="changeSlide(1)">&#9654;</button>
             </div>
         </div>
     </div>
@@ -530,4 +551,3 @@
 <script src="script.js"></script>
 </body>
 </html>
- 
