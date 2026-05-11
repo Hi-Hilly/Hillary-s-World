@@ -1,4 +1,27 @@
 // ===========================
+// FILM SLIDESHOW
+// ===========================
+let currentSlide = 0;
+
+function goToSlide(index) {
+    const slides = document.querySelectorAll('.film-slide');
+    const dots = document.querySelectorAll('.dot');
+    if (!slides.length) return;
+
+    slides[currentSlide].classList.remove('active');
+    dots[currentSlide].classList.remove('active');
+
+    currentSlide = (index + slides.length) % slides.length;
+
+    slides[currentSlide].classList.add('active');
+    dots[currentSlide].classList.add('active');
+}
+
+function changeSlide(direction) {
+    goToSlide(currentSlide + direction);
+}
+
+// ===========================
 // PIXEL ART AVATAR
 // ===========================
 function pixelateImage(imgEl, canvasEl) {
