@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Hillary's World</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+<!-- ===== SKY LAYER ===== -->
+<div class="sky-layer">
+    <!-- STARS (pixel dots) -->
+    <div class="star s1"></div>
+    <div class="star s2"></div>
+    <div class="star s3"></div>
+ 
+    <!-- CLOUDS - SVG pixel style -->
+    <svg class="cloud cloud1" viewBox="0 0 110 55" xmlns="http://www.w3.org/2000/svg">
+        <rect x="20" y="30" width="70" height="20" fill="#fff" stroke="#a8d8ea" stroke-width="2"/>
+        <rect x="10" y="22" width="35" height="18" fill="#fff" stroke="#a8d8ea" stroke-width="2"/>
+        <rect x="40" y="14" width="28" height="20" fill="#fff" stroke="#a8d8ea" stroke-width="2"/>
+        <rect x="65" y="20" width="30" height="16" fill="#fff" stroke="#a8d8ea" stroke-width="2"/>
+        <rect x="15" y="28" width="10" height="6" fill="#f0f8ff"/>
+        <rect x="45" y="18" width="8" height="5" fill="#f0f8ff"/>
+    </svg>
+ 
+    <svg class="cloud cloud2" viewBox="0 0 140 60" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="32" width="120" height="22" fill="#fff" stroke="#a8d8ea" stroke-width="2"/>
+        <rect x="25" y="20" width="40" height="20" fill="#fff" stroke="#a8d8ea" stroke-width="2"/>
+        <rect x="60" y="12" width="32" height="24" fill="#fff" stroke="#a8d8ea" stroke-width="2"/>
+        <rect x="88" y="22" width="36" height="18" fill="#fff" stroke="#a8d8ea" stroke-width="2"/>
+        <rect x="5" y="36" width="12" height="8" fill="#f0f8ff"/>
+    </svg>
+ 
+    <svg class="cloud cloud3" viewBox="0 0 90 50" xmlns="http://www.w3.org/2000/svg">
+        <rect x="8" y="28" width="74" height="18" fill="#fff" stroke="#a8d8ea" stroke-width="2"/>
+        <rect x="20" y="16" width="30" height="18" fill="#fff" stroke="#a8d8ea" stroke-width="2"/>
+        <rect x="46" y="10" width="24" height="20" fill="#fff" stroke="#a8d8ea" stroke-width="2"/>
+        <rect x="12" y="32" width="9" height="6" fill="#f0f8ff"/>
+    </svg>
+ 
+    <svg class="cloud cloud4" viewBox="0 0 100 52" xmlns="http://www.w3.org/2000/svg">
+        <rect x="5" y="30" width="90" height="18" fill="#fff" stroke="#a8d8ea" stroke-width="2"/>
+        <rect x="18" y="18" width="36" height="20" fill="#fff" stroke="#a8d8ea" stroke-width="2"/>
+        <rect x="50" y="10" width="28" height="22" fill="#fff" stroke="#a8d8ea" stroke-width="2"/>
+        <rect x="74" y="22" width="20" height="14" fill="#fff" stroke="#a8d8ea" stroke-width="2"/>
+    </svg>
+ 
+    <svg class="cloud cloud5" viewBox="0 0 80 46" xmlns="http://www.w3.org/2000/svg">
+        <rect x="6" y="26" width="68" height="16" fill="#fff" stroke="#a8d8ea" stroke-width="2"/>
+        <rect x="14" y="14" width="28" height="18" fill="#fff" stroke="#a8d8ea" stroke-width="2"/>
+        <rect x="38" y="8" width="22" height="20" fill="#fff" stroke="#a8d8ea" stroke-width="2"/>
+    </svg>
+ 
+    <!-- BIRDS - pixel SVG -->
+    <svg class="bird bird1" viewBox="0 0 40 28" xmlns="http://www.w3.org/2000/svg">
+        <!-- body -->
+        <rect x="12" y="8" width="16" height="10" fill="#2a2a2a" stroke="#111" stroke-width="1"/>
+        <!-- head -->
+        <rect x="24" y="6" width="8" height="8" fill="#2a2a2a" stroke="#111" stroke-width="1"/>
+        <!-- beak -->
+        <rect x="31" y="9" width="5" height="3" fill="#e8a020" stroke="#111" stroke-width="1"/>
+        <!-- eye -->
+        <rect x="26" y="7" width="2" height="2" fill="#fff"/>
+        <!-- wing up -->
+        <rect x="14" y="4" width="10" height="6" fill="#333" stroke="#111" stroke-width="1"/>
+        <rect x="10" y="2" width="6" height="5" fill="#3a3a3a" stroke="#111" stroke-width="1"/>
+        <!-- tail -->
+        <rect x="8" y="10" width="6" height="4" fill="#222" stroke="#111" stroke-width="1"/>
+        <rect x="6" y="8" width="4" height="4" fill="#1a1a1a" stroke="#111" stroke-width="1"/>
+        <!-- legs -->
+        <rect x="16" y="18" width="2" height="6" fill="#888" stroke="#111" stroke-width="1"/>
+        <rect x="21" y="18" width="2" height="6" fill="#888" stroke="#111" stroke-width="1"/>
+        <!-- feet -->
+        <rect x="13" y="23" width="5" height="2" fill="#888" stroke="#111" stroke-width="1"/>
+        <rect x="18" y="23" width="5" height="2" fill="#888" stroke="#111" stroke-width="1"/>
+        <rect x="16" y="22" width="2" height="3" fill="#888" stroke="#111" stroke-width="1"/>
+        <rect x="21" y="22" width="2" height="3" fill="#888" stroke="#111" stroke-width="1"/>
+    </svg>
+ 
+    <svg class="bird bird2" viewBox="0 0 38 26" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="7" width="14" height="10" fill="#2a2a2a" stroke="#111" stroke-width="1"/>
+        <rect x="22" y="5" width="8" height="8" fill="#2a2a2a" stroke="#111" stroke-width="1"/>
+        <rect x="29" y="8" width="5" height="3" fill="#e8a020" stroke="#111" stroke-width="1"/>
+        <rect x="24" y="6" width="2" height="2" fill="#fff"/>
+        <rect x="12" y="3" width="8" height="6" fill="#333" stroke="#111" stroke-width="1"/>
+        <rect x="8" y="1" width="6" height="5" fill="#3a3a3a" stroke="#111" stroke-width="1"/>
+        <rect x="6" y="9" width="6" height="4" fill="#222" stroke="#111" stroke-width="1"/>
+        <rect x="14" y="17" width="2" height="5" fill="#888" stroke="#111" stroke-width="1"/>
+        <rect x="19" y="17" width="2" height="5" fill="#888" stroke="#111" stroke-width="1"/>
+        <rect x="11" y="21" width="5" height="2" fill="#888" stroke="#111" stroke-width="1"/>
+        <rect x="17" y="21" width="5" height="2" fill="#888" stroke="#111" stroke-width="1"/>
+    </svg>
+ 
+    <svg class="bird bird3" viewBox="0 0 36 24" xmlns="http://www.w3.org/2000/svg">
+        <rect x="8" y="6" width="14" height="9" fill="#2a2a2a" stroke="#111" stroke-width="1"/>
+        <rect x="20" y="4" width="7" height="7" fill="#2a2a2a" stroke="#111" stroke-width="1"/>
+        <rect x="26" y="7" width="4" height="3" fill="#e8a020" stroke="#111" stroke-width="1"/>
+        <rect x="22" y="5" width="2" height="2" fill="#fff"/>
+        <rect x="10" y="2" width="8" height="5" fill="#333" stroke="#111" stroke-width="1"/>
+        <rect x="6" y="8" width="5" height="4" fill="#222" stroke="#111" stroke-width="1"/>
+        <rect x="12" y="15" width="2" height="5" fill="#888" stroke="#111" stroke-width="1"/>
+        <rect x="17" y="15" width="2" height="5" fill="#888" stroke="#111" stroke-width="1"/>
+        <rect x="9" y="19" width="5" height="2" fill="#888" stroke="#111" stroke-width="1"/>
+        <rect x="15" y="19" width="5" height="2" fill="#888" stroke="#111" stroke-width="1"/>
+    </svg>
+ 
+    <svg class="bird bird4" viewBox="0 0 40 28" xmlns="http://www.w3.org/2000/svg">
+        <rect x="12" y="8" width="16" height="10" fill="#2a2a2a" stroke="#111" stroke-width="1"/>
+        <rect x="24" y="6" width="8" height="8" fill="#2a2a2a" stroke="#111" stroke-width="1"/>
+        <rect x="31" y="9" width="5" height="3" fill="#e8a020" stroke="#111" stroke-width="1"/>
+        <rect x="26" y="7" width="2" height="2" fill="#fff"/>
+        <rect x="14" y="4" width="10" height="6" fill="#333" stroke="#111" stroke-width="1"/>
+        <rect x="10" y="2" width="6" height="5" fill="#3a3a3a" stroke="#111" stroke-width="1"/>
+        <rect x="8" y="10" width="6" height="4" fill="#222" stroke="#111" stroke-width="1"/>
+        <rect x="16" y="18" width="2" height="6" fill="#888" stroke="#111" stroke-width="1"/>
+        <rect x="21" y="18" width="2" height="6" fill="#888" stroke="#111" stroke-width="1"/>
+        <rect x="13" y="23" width="5" height="2" fill="#888" stroke="#111" stroke-width="1"/>
+        <rect x="19" y="23" width="5" height="2" fill="#888" stroke="#111" stroke-width="1"/>
+    </svg>
+</div>
+ 
+<!-- ===== GROUND LAYER (trees, grass, rocks, flowers) ===== -->
+<div class="ground-layer">
+ 
+    <!-- TREES - SVG pixel leaf style -->
+ 
+    <!-- Tree Far Left Big -->
+    <svg class="tree t1" viewBox="0 0 80 160" xmlns="http://www.w3.org/2000/svg">
+        <!-- trunk -->
+        <rect x="30" y="100" width="20" height="55" fill="#7a4a2b" stroke="#4d2d18" stroke-width="2"/>
+        <rect x="34" y="105" width="6" height="40" fill="#9a6a3b" stroke="none"/>
+        <!-- roots -->
+        <rect x="20" y="148" width="14" height="8" fill="#7a4a2b" stroke="#4d2d18" stroke-width="1"/>
+        <rect x="46" y="148" width="14" height="8" fill="#7a4a2b" stroke="#4d2d18" stroke-width="1"/>
+        <!-- leaves layered -->
+        <rect x="18" y="68" width="44" height="38" fill="#3fa34d" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="10" y="78" width="18" height="28" fill="#3fa34d" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="52" y="72" width="18" height="26" fill="#3fa34d" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="22" y="48" width="36" height="30" fill="#48b85a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="14" y="58" width="14" height="22" fill="#48b85a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="52" y="54" width="14" height="24" fill="#48b85a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="28" y="30" width="24" height="28" fill="#56cc6a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="22" y="38" width="12" height="20" fill="#56cc6a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="46" y="34" width="12" height="22" fill="#56cc6a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="32" y="12" width="16" height="24" fill="#62d975" stroke="#2b6b34" stroke-width="2"/>
+        <!-- leaf highlights -->
+        <rect x="30" y="50" width="6" height="4" fill="#7ae880" stroke="none"/>
+        <rect x="24" y="70" width="4" height="4" fill="#7ae880" stroke="none"/>
+        <rect x="44" y="34" width="4" height="4" fill="#7ae880" stroke="none"/>
+    </svg>
+ 
+    <!-- Tree Left Medium -->
+    <svg class="tree t2" viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg">
+        <rect x="22" y="76" width="16" height="40" fill="#7a4a2b" stroke="#4d2d18" stroke-width="2"/>
+        <rect x="26" y="80" width="5" height="30" fill="#9a6a3b"/>
+        <rect x="14" y="110" width="12" height="7" fill="#7a4a2b" stroke="#4d2d18" stroke-width="1"/>
+        <rect x="34" y="110" width="12" height="7" fill="#7a4a2b" stroke="#4d2d18" stroke-width="1"/>
+        <rect x="12" y="50" width="36" height="32" fill="#3fa34d" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="6" y="58" width="14" height="22" fill="#3fa34d" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="40" y="54" width="14" height="20" fill="#3fa34d" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="16" y="30" width="28" height="26" fill="#48b85a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="10" y="38" width="12" height="18" fill="#48b85a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="38" y="34" width="12" height="20" fill="#48b85a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="20" y="10" width="20" height="24" fill="#56cc6a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="14" y="18" width="10" height="16" fill="#56cc6a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="36" y="14" width="10" height="18" fill="#56cc6a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="22" y="32" width="5" height="3" fill="#7ae880"/>
+    </svg>
+ 
+    <!-- Tree Right Big -->
+    <svg class="tree t3" viewBox="0 0 90 170" xmlns="http://www.w3.org/2000/svg">
+        <rect x="34" y="110" width="22" height="56" fill="#7a4a2b" stroke="#4d2d18" stroke-width="2"/>
+        <rect x="38" y="115" width="7" height="44" fill="#9a6a3b"/>
+        <rect x="22" y="156" width="16" height="9" fill="#7a4a2b" stroke="#4d2d18" stroke-width="1"/>
+        <rect x="52" y="156" width="16" height="9" fill="#7a4a2b" stroke="#4d2d18" stroke-width="1"/>
+        <rect x="16" y="72" width="58" height="44" fill="#3fa34d" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="6" y="82" width="20" height="32" fill="#3fa34d" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="64" y="76" width="20" height="30" fill="#3fa34d" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="24" y="46" width="42" height="34" fill="#48b85a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="14" y="56" width="16" height="24" fill="#48b85a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="60" y="50" width="16" height="26" fill="#48b85a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="30" y="22" width="30" height="30" fill="#56cc6a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="22" y="32" width="14" height="22" fill="#56cc6a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="54" y="26" width="14" height="24" fill="#56cc6a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="36" y="4" width="18" height="24" fill="#62d975" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="32" y="50" width="6" height="4" fill="#7ae880"/>
+        <rect x="26" y="74" width="5" height="4" fill="#7ae880"/>
+    </svg>
+ 
+    <!-- Tree Right Small -->
+    <svg class="tree t4" viewBox="0 0 55 110" xmlns="http://www.w3.org/2000/svg">
+        <rect x="20" y="70" width="14" height="36" fill="#7a4a2b" stroke="#4d2d18" stroke-width="2"/>
+        <rect x="24" y="74" width="4" height="28" fill="#9a6a3b"/>
+        <rect x="12" y="100" width="10" height="7" fill="#7a4a2b" stroke="#4d2d18" stroke-width="1"/>
+        <rect x="32" y="100" width="10" height="7" fill="#7a4a2b" stroke="#4d2d18" stroke-width="1"/>
+        <rect x="10" y="44" width="34" height="30" fill="#3fa34d" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="4" y="52" width="12" height="20" fill="#3fa34d" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="38" y="48" width="12" height="18" fill="#3fa34d" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="14" y="24" width="26" height="24" fill="#48b85a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="8" y="32" width="10" height="16" fill="#48b85a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="36" y="28" width="10" height="18" fill="#48b85a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="18" y="6" width="18" height="22" fill="#56cc6a" stroke="#2b6b34" stroke-width="2"/>
+    </svg>
+ 
+    <!-- Tree Center Back -->
+    <svg class="tree t5" viewBox="0 0 65 130" xmlns="http://www.w3.org/2000/svg">
+        <rect x="24" y="84" width="16" height="42" fill="#7a4a2b" stroke="#4d2d18" stroke-width="2"/>
+        <rect x="28" y="88" width="5" height="32" fill="#9a6a3b"/>
+        <rect x="16" y="118" width="12" height="8" fill="#7a4a2b" stroke="#4d2d18" stroke-width="1"/>
+        <rect x="36" y="118" width="12" height="8" fill="#7a4a2b" stroke="#4d2d18" stroke-width="1"/>
+        <rect x="10" y="56" width="44" height="34" fill="#3fa34d" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="4" y="64" width="14" height="24" fill="#3fa34d" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="48" y="60" width="14" height="22" fill="#3fa34d" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="16" y="32" width="32" height="28" fill="#48b85a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="10" y="40" width="12" height="20" fill="#48b85a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="42" y="36" width="12" height="22" fill="#48b85a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="22" y="8" width="20" height="28" fill="#56cc6a" stroke="#2b6b34" stroke-width="2"/>
+        <rect x="24" y="38" width="5" height="4" fill="#7ae880"/>
+    </svg>
+ 
+    <!-- GRASS STRIP with texture -->
+    <svg class="grass-strip" viewBox="0 0 430 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <!-- base ground layers -->
+        <rect x="0" y="30" width="430" height="50" fill="#4fa43f"/>
+        <rect x="0" y="30" width="430" height="10" fill="#5aba4a"/>
+        <!-- soil layer peek -->
+        <rect x="0" y="55" width="430" height="25" fill="#7a5c3a"/>
+        <rect x="0" y="55" width="430" height="6" fill="#8a6a48"/>
+        <!-- dirt texture dots -->
+        <rect x="20" y="62" width="4" height="3" fill="#6a4c2e"/>
+        <rect x="55" y="65" width="5" height="3" fill="#6a4c2e"/>
+        <rect x="100" y="60" width="3" height="4" fill="#6a4c2e"/>
+        <rect x="150" y="64" width="6" height="3" fill="#6a4c2e"/>
+        <rect x="200" y="61" width="4" height="4" fill="#6a4c2e"/>
+        <rect x="260" y="66" width="5" height="3" fill="#6a4c2e"/>
+        <rect x="310" y="62" width="4" height="3" fill="#6a4c2e"/>
+        <rect x="370" y="65" width="5" height="4" fill="#6a4c2e"/>
+        <rect x="400" y="60" width="3" height="3" fill="#6a4c2e"/>
+        <!-- grass blades pixel style -->
+        <rect x="5" y="24" width="3" height="10" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="3" y="20" width="3" height="8" fill="#62cc50"/>
+        <rect x="14" y="22" width="3" height="12" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="12" y="18" width="2" height="7" fill="#70d85e"/>
+        <rect x="22" y="25" width="4" height="8" fill="#4aa33e" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="32" y="21" width="3" height="12" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="30" y="17" width="3" height="7" fill="#62cc50"/>
+        <rect x="44" y="23" width="3" height="10" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="42" y="19" width="2" height="7" fill="#70d85e"/>
+        <rect x="55" y="22" width="4" height="11" fill="#4aa33e" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="65" y="24" width="3" height="9" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="63" y="20" width="3" height="7" fill="#62cc50"/>
+        <rect x="76" y="21" width="3" height="12" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="74" y="17" width="2" height="7" fill="#70d85e"/>
+        <rect x="86" y="25" width="4" height="8" fill="#4aa33e" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="95" y="22" width="3" height="11" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="107" y="24" width="3" height="9" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="105" y="20" width="2" height="6" fill="#70d85e"/>
+        <rect x="116" y="21" width="4" height="12" fill="#4aa33e" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="128" y="23" width="3" height="10" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="140" y="22" width="3" height="11" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="138" y="18" width="2" height="7" fill="#62cc50"/>
+        <rect x="150" y="25" width="4" height="8" fill="#4aa33e" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="162" y="21" width="3" height="12" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="160" y="17" width="2" height="7" fill="#70d85e"/>
+        <rect x="174" y="23" width="3" height="10" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="185" y="22" width="4" height="11" fill="#4aa33e" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="196" y="24" width="3" height="9" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="208" y="21" width="3" height="12" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="206" y="17" width="2" height="7" fill="#62cc50"/>
+        <rect x="220" y="23" width="4" height="10" fill="#4aa33e" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="232" y="22" width="3" height="11" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="244" y="25" width="3" height="8" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="242" y="21" width="2" height="7" fill="#70d85e"/>
+        <rect x="255" y="22" width="4" height="11" fill="#4aa33e" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="267" y="23" width="3" height="10" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="279" y="21" width="3" height="12" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="277" y="17" width="2" height="7" fill="#62cc50"/>
+        <rect x="290" y="24" width="4" height="9" fill="#4aa33e" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="302" y="22" width="3" height="11" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="314" y="23" width="3" height="10" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="326" y="25" width="4" height="8" fill="#4aa33e" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="324" y="21" width="2" height="7" fill="#70d85e"/>
+        <rect x="338" y="22" width="3" height="11" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="350" y="23" width="3" height="10" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="348" y="19" width="2" height="7" fill="#62cc50"/>
+        <rect x="362" y="22" width="4" height="11" fill="#4aa33e" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="374" y="24" width="3" height="9" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="386" y="21" width="3" height="12" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="384" y="17" width="2" height="7" fill="#70d85e"/>
+        <rect x="398" y="23" width="4" height="10" fill="#4aa33e" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="412" y="22" width="3" height="11" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+        <rect x="424" y="24" width="3" height="8" fill="#5aba4a" stroke="#2b6b34" stroke-width="1"/>
+    </svg>
+ 
+    <!-- ROCKS -->
+    <svg class="rock r1" viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg">
+        <rect x="8" y="18" width="44" height="18" fill="#8b8b8b" stroke="#555" stroke-width="2"/>
+        <rect x="4" y="22" width="14" height="12" fill="#8b8b8b" stroke="#555" stroke-width="2"/>
+        <rect x="42" y="20" width="14" height="14" fill="#8b8b8b" stroke="#555" stroke-width="2"/>
+        <rect x="12" y="14" width="28" height="10" fill="#9a9a9a" stroke="#555" stroke-width="2"/>
+        <rect x="20" y="10" width="16" height="8" fill="#aaa" stroke="#555" stroke-width="1"/>
+        <rect x="10" y="20" width="6" height="4" fill="#bbb"/>
+        <rect x="30" y="15" width="8" height="3" fill="#bbb"/>
+    </svg>
+ 
+    <svg class="rock r2" viewBox="0 0 44 32" xmlns="http://www.w3.org/2000/svg">
+        <rect x="6" y="14" width="32" height="14" fill="#7a7a7a" stroke="#444" stroke-width="2"/>
+        <rect x="2" y="18" width="10" height="10" fill="#7a7a7a" stroke="#444" stroke-width="2"/>
+        <rect x="34" y="16" width="10" height="12" fill="#7a7a7a" stroke="#444" stroke-width="2"/>
+        <rect x="10" y="10" width="22" height="8" fill="#888" stroke="#444" stroke-width="2"/>
+        <rect x="16" y="6" width="12" height="8" fill="#999" stroke="#444" stroke-width="1"/>
+        <rect x="8" y="16" width="5" height="3" fill="#aaa"/>
+        <rect x="22" y="12" width="7" height="3" fill="#aaa"/>
+    </svg>
+ 
+    <svg class="rock r3" viewBox="0 0 36 28" xmlns="http://www.w3.org/2000/svg">
+        <rect x="4" y="12" width="28" height="12" fill="#8b8b8b" stroke="#555" stroke-width="2"/>
+        <rect x="0" y="16" width="8" height="8" fill="#8b8b8b" stroke="#555" stroke-width="2"/>
+        <rect x="28" y="14" width="8" height="10" fill="#8b8b8b" stroke="#555" stroke-width="2"/>
+        <rect x="8" y="8" width="20" height="8" fill="#9a9a9a" stroke="#555" stroke-width="1"/>
+        <rect x="6" y="14" width="4" height="3" fill="#bbb"/>
+    </svg>
+ 
+    <!-- FLOWERS - pixel style with petals -->
+    <svg class="flower fl1" viewBox="0 0 28 38" xmlns="http://www.w3.org/2000/svg">
+        <!-- stem -->
+        <rect x="12" y="18" width="4" height="18" fill="#2f7d32" stroke="#1a4d1e" stroke-width="1"/>
+        <!-- leaf -->
+        <rect x="6" y="24" width="8" height="5" fill="#3a9a3e" stroke="#1a4d1e" stroke-width="1"/>
+        <rect x="4" y="22" width="4" height="4" fill="#3a9a3e" stroke="#1a4d1e" stroke-width="1"/>
+        <!-- petals -->
+        <rect x="10" y="6" width="8" height="8" fill="#ff9ee2" stroke="#c060a0" stroke-width="1"/>
+        <rect x="4" y="10" width="8" height="6" fill="#ff9ee2" stroke="#c060a0" stroke-width="1"/>
+        <rect x="16" y="10" width="8" height="6" fill="#ff9ee2" stroke="#c060a0" stroke-width="1"/>
+        <rect x="10" y="14" width="8" height="6" fill="#ff9ee2" stroke="#c060a0" stroke-width="1"/>
+        <!-- center -->
+        <rect x="11" y="9" width="6" height="6" fill="#ffe066" stroke="#c08020" stroke-width="1"/>
+        <!-- center dot -->
+        <rect x="12" y="10" width="4" height="4" fill="#ffcc00"/>
+    </svg>
+ 
+    <svg class="flower fl2" viewBox="0 0 26 36" xmlns="http://www.w3.org/2000/svg">
+        <rect x="11" y="17" width="4" height="17" fill="#2f7d32" stroke="#1a4d1e" stroke-width="1"/>
+        <rect x="15" y="22" width="8" height="5" fill="#3a9a3e" stroke="#1a4d1e" stroke-width="1"/>
+        <rect x="17" y="20" width="4" height="4" fill="#3a9a3e" stroke="#1a4d1e" stroke-width="1"/>
+        <rect x="9" y="5" width="8" height="8" fill="#ffe066" stroke="#c08020" stroke-width="1"/>
+        <rect x="3" y="9" width="8" height="6" fill="#ffe066" stroke="#c08020" stroke-width="1"/>
+        <rect x="15" y="9" width="8" height="6" fill="#ffe066" stroke="#c08020" stroke-width="1"/>
+        <rect x="9" y="13" width="8" height="6" fill="#ffe066" stroke="#c08020" stroke-width="1"/>
+        <rect x="10" y="8" width="6" height="6" fill="#ff6600" stroke="#aa4400" stroke-width="1"/>
+        <rect x="11" y="9" width="4" height="4" fill="#ffaa00"/>
+    </svg>
+ 
+    <svg class="flower fl3" viewBox="0 0 26 36" xmlns="http://www.w3.org/2000/svg">
+        <rect x="11" y="17" width="4" height="17" fill="#2f7d32" stroke="#1a4d1e" stroke-width="1"/>
+        <rect x="5" y="22" width="8" height="5" fill="#3a9a3e" stroke="#1a4d1e" stroke-width="1"/>
+        <rect x="3" y="20" width="4" height="4" fill="#3a9a3e" stroke="#1a4d1e" stroke-width="1"/>
+        <rect x="9" y="5" width="8" height="8" fill="#ff7ec7" stroke="#c060a0" stroke-width="1"/>
+        <rect x="3" y="9" width="8" height="6" fill="#ff7ec7" stroke="#c060a0" stroke-width="1"/>
+        <rect x="15" y="9" width="8" height="6" fill="#ff7ec7" stroke="#c060a0" stroke-width="1"/>
+        <rect x="9" y="13" width="8" height="6" fill="#ff7ec7" stroke="#c060a0" stroke-width="1"/>
+        <rect x="10" y="8" width="6" height="6" fill="#fff0a0" stroke="#c08020" stroke-width="1"/>
+        <rect x="11" y="9" width="4" height="4" fill="#ffee44"/>
+    </svg>
+ 
+    <svg class="flower fl4" viewBox="0 0 24 34" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="15" width="4" height="17" fill="#2f7d32" stroke="#1a4d1e" stroke-width="1"/>
+        <rect x="14" y="20" width="7" height="4" fill="#3a9a3e" stroke="#1a4d1e" stroke-width="1"/>
+        <rect x="8" y="4" width="8" height="7" fill="#ff9ee2" stroke="#c060a0" stroke-width="1"/>
+        <rect x="2" y="8" width="8" height="6" fill="#ff9ee2" stroke="#c060a0" stroke-width="1"/>
+        <rect x="14" y="8" width="8" height="6" fill="#ff9ee2" stroke="#c060a0" stroke-width="1"/>
+        <rect x="8" y="11" width="8" height="6" fill="#ff9ee2" stroke="#c060a0" stroke-width="1"/>
+        <rect x="9" y="7" width="6" height="6" fill="#ffee44" stroke="#c08020" stroke-width="1"/>
+        <rect x="10" y="8" width="4" height="4" fill="#ffcc00"/>
+    </svg>
+ 
+    <svg class="flower fl5" viewBox="0 0 26 36" xmlns="http://www.w3.org/2000/svg">
+        <rect x="11" y="17" width="4" height="17" fill="#2f7d32" stroke="#1a4d1e" stroke-width="1"/>
+        <rect x="5" y="23" width="8" height="4" fill="#3a9a3e" stroke="#1a4d1e" stroke-width="1"/>
+        <rect x="9" y="5" width="8" height="8" fill="#ffe066" stroke="#c08020" stroke-width="1"/>
+        <rect x="3" y="9" width="8" height="6" fill="#ffe066" stroke="#c08020" stroke-width="1"/>
+        <rect x="15" y="9" width="8" height="6" fill="#ffe066" stroke="#c08020" stroke-width="1"/>
+        <rect x="9" y="13" width="8" height="6" fill="#ffe066" stroke="#c08020" stroke-width="1"/>
+        <rect x="10" y="8" width="6" height="6" fill="#ff4444" stroke="#aa2222" stroke-width="1"/>
+        <rect x="11" y="9" width="4" height="4" fill="#ff6666"/>
+    </svg>
+ 
+    <svg class="flower fl6" viewBox="0 0 24 34" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="15" width="4" height="17" fill="#2f7d32" stroke="#1a4d1e" stroke-width="1"/>
+        <rect x="14" y="20" width="7" height="4" fill="#3a9a3e" stroke="#1a4d1e" stroke-width="1"/>
+        <rect x="8" y="4" width="8" height="7" fill="#c8a2ff" stroke="#7040c0" stroke-width="1"/>
+        <rect x="2" y="8" width="8" height="6" fill="#c8a2ff" stroke="#7040c0" stroke-width="1"/>
+        <rect x="14" y="8" width="8" height="6" fill="#c8a2ff" stroke="#7040c0" stroke-width="1"/>
+        <rect x="8" y="11" width="8" height="6" fill="#c8a2ff" stroke="#7040c0" stroke-width="1"/>
+        <rect x="9" y="7" width="6" height="6" fill="#ffee44" stroke="#c08020" stroke-width="1"/>
+        <rect x="10" y="8" width="4" height="4" fill="#ffcc00"/>
+    </svg>
+ 
+</div>
+ 
+<!-- ===== MAIN CONTENT ===== -->
+<div class="background-container">
+ 
+    <!-- TITLE -->
+    <h1 class="main-title">Hillary's World</h1>
+ 
+    <!-- CHARACTER -->
+    <div class="character-container">
+        <img src="https://i.ibb.co.com/gb2VqBJW/Whats-App-Image-2026-05-10-at-00-11-19.jpg" class="pixel-avatar">
+    </div>
+ 
+    <!-- MENU -->
+    <div class="menu-grid">
+        <button class="wood-sign" onclick="openPopup('aboutPopup')">About Me</button>
+        <button class="wood-sign" onclick="openPopup('filmsPopup')">Favorite Films</button>
+        <button class="wood-sign" onclick="openPopup('songsPopup')">Favorite Songs</button>
+        <button class="wood-sign" onclick="openPopup('socialPopup')">Media Sosial</button>
+    </div>
+</div>
+ 
+<!-- ABOUT POPUP -->
+<div class="popup" id="aboutPopup">
+    <div class="popup-box">
+        <button class="close-btn" onclick="closePopup('aboutPopup')">X</button>
+        <h2>About Me</h2>
+        <div class="popup-content">
+            <img src="https://i.ibb.co.com/nMmCcRpx/Whats-App-Image-2025-08-07-at-14-19-31-6aea2c85.jpg" class="popup-photo">
+            <div>
+                <p>My name is Hillary. I am 19 years old, a Computer Engineering student at Universitas Indonesia batch of 2025.</p>
+                <br>
+                <p>My hobbies are watching films/series and sleeping.</p>
+                <br>
+                <p>Fun fact: My thumb can bend 90 degrees.</p>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<!-- FILMS POPUP -->
+<div class="popup" id="filmsPopup">
+    <div class="popup-box">
+        <button class="close-btn" onclick="closePopup('filmsPopup')">X</button>
+        <h2>Favorite Films</h2>
+        <div class="films-grid">
+            <div class="film-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
+                <h3>Forrest Gump</h3>
+                <p>Robert Zemeckis</p>
+            </div>
+            <div class="film-card">
+                <img src="https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_.jpg">
+                <h3>Interstellar</h3>
+                <p>Christopher Nolan</p>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<!-- SONGS POPUP -->
+<div class="popup" id="songsPopup">
+    <div class="popup-box">
+        <button class="close-btn" onclick="closePopup('songsPopup')">X</button>
+        <h2>Favorite Songs</h2>
+        <div class="songs-grid">
+            <div class="song-card">
+                <div class="vinyl">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/5/5f/MyChemicalRomanceHelena.jpg" class="album-cover">
+                </div>
+                <div class="song-info">
+                    <h3>Helena</h3>
+                    <p>My Chemical Romance</p>
+                </div>
+            </div>
+            <div class="song-card">
+                <div class="vinyl">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/1/14/Radiohead.fakeplastictrees.jpg" class="album-cover">
+                </div>
+                <div class="song-info">
+                    <h3>Fake Plastic Trees</h3>
+                    <p>Radiohead</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<!-- SOCIAL POPUP -->
+<div class="popup" id="socialPopup">
+    <div class="popup-box">
+        <button class="close-btn" onclick="closePopup('socialPopup')">X</button>
+        <h2>Media Sosial</h2>
+        <ul class="social-list">
+            <li>
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" class="social-icon">
+                <a href="https://instagram.com/hi._.hiles" target="_blank">@hi._.hiles</a>
+            </li>
+            <li>
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="social-icon">
+                <a href="https://linkedin.com" target="_blank">Hillary Salendah</a>
+            </li>
+            <li>
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="social-icon">
+                <a href="https://github.com/Hi-Hilly" target="_blank">Hi-Hilly</a>
+            </li>
+        </ul>
+    </div>
+</div>
+ 
+<script src="script.js"></script>
+</body>
+</html>
+ 
