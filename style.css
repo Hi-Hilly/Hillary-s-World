@@ -489,6 +489,12 @@ body {
     flex-shrink: 0;
 }
  
+.social-icon--letterboxd {
+    width: auto;
+    height: 34px;
+    object-fit: contain;
+}
+ 
 .social-list a {
     text-decoration: none;
     color: #3d2512;
